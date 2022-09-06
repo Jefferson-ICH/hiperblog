@@ -3,9 +3,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
-    color: brown;
-}
+
 
 #container{
     width: 80%;
@@ -13,5 +11,22 @@ h1{
     text-align: center;
     border: 1px solid #44d4ee44;
     margin: 0 auto;
+
+}
+#cabecera h1{
+
+    color: crimson;
+   
+    border: 0px solid rgba(100, 100, 100, 1);
+    border-radius: 4px;
+    background: linear-gradient(
+        45deg,
+        rgba(59, 52, 22, 0) 12%,
+        rgba(237, 196, 74, 1) 24%
+    );
+     box-shadow: 3px 0px 27px 2px rgba(0, 0, 0, 0.3);
+     margin: 0;
+    border: 0;
+      
 
 }
